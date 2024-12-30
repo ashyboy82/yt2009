@@ -22,9 +22,9 @@ the yt2009 container is configured by using the following environment variables:
 - `YT2009_SSLPORT` sets the HTTPS port (default: `443`)
 - `YT2009_SSLPATH` sets the path for the SSL certificate (default: `/yt2009/cert.crt` which is linked to `/data/cert.crt` so you can use either)
 - `YT2009_SSLKEY` sets the path for the SSL certificate private key (default: `/yt2009/cert.key` which is linked to `/data/cert.key` so you can use either)
-- `YT2009_AUTO_MAINTAIN` sets whether to enable automatic instance cleaning (default: false)
-- `YT2009_MAINTAIN_MAX_SIZE` sets the maximum assets folder size in GB, works with auto_maintain (default: 10)
-- `YT2009_MAINTAIN_MAX_CACHE_SIZE` sets the maximum cache file size in MB, works with auto_maintain (default: 15)
+- `YT2009_AUTO_MAINTAIN` sets whether to enable automatic instance cleaning (default: true)
+- `YT2009_MAINTAIN_MAX_SIZE` sets the maximum assets folder size in GB, works with auto_maintain (default: 20)
+- `YT2009_MAINTAIN_MAX_CACHE_SIZE` sets the maximum cache file size in MB, works with auto_maintain (default: 50)
 - `YT2009_FALLBACK` sets fallback mode, doesn't use the saved cache, shows a fallback notice on homepage, deprecated (default: false)
 - `YT2009_MASTERSERVER` sets a different master server for comments/video sync, leave empty to disable
 - `YT2009_DISABLEMASTER` sets whether any master server will be used (default: false)
